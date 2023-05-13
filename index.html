@@ -3,14 +3,56 @@
     <head>
         <title>Odin Recipes</title>
         <meta charset ="UTF-8">
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-        <h1>Odin Recipes</h1>
-        <img src="https://i.pinimg.com/originals/73/46/89/73468938a39e65138d79d1d150c57101.gif">
-        <ul>
-            <li><a href="recipes/okonomiyaki.html">Okonomiyaki</a></li>
-            <li><a href="recipes/fries.html">Homemade French Fries</a></li>
-        </ul>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">😺</div>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Recipes</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header class="header">
+            <div class="container">
+                <div>
+                    <h1>Purrfect Meals</h1>
+                    <p>Check out this sample recipe website created using
+                        HTML and CSS, perfect for those interested in programming 
+                        and web development. Get inspired and learn how to create 
+                        your own website!
+                    </p>
+                </div>
+                <img src="images/chefcat.jpg" alt="a cat chef">
+            </div>
+        </header>
+        <section class="boxes">
+            <div class="container">
+                <div class="item">
+                    <a href="recipes/okonomiyaki.html"><img src="images/okonomiyaki.jpg" alt="okonomiyaki"></a>
+                    <p>Okonomiyaki</p>
+                </div>
+                <div class="item">
+                    <a href="recipes/fries.html"><img src="images/fries.jpg" alt="french fries"></a>
+                    <p>Homemade Fries</p>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <p>Made By kylk27</p>
+        </footer>
     </body>
 </html>
